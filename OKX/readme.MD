@@ -6,7 +6,7 @@
 - Group: [Link](t.me/KeoAirDropFreeNe)
 - Channel: [Link](t.me/KeoAirDropFreeNee)
 
-> > > Help me with your referral [Link](https://t.me/OKX_official_bot/OKX_Racer?startapp=linkCode_27544747)
+> > > Help me with your referral [Link](https://t.me/OKX_official_bot/OKX_Racer?startapp=linkCode_6713068747)
 
 ## 🚀 Getting Started
 
@@ -32,14 +32,16 @@ To get started with the bot, follow these steps:
 
 ```json
 {
-  "howManyGame": 1000, //how many game you want to play
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "howManyGame": 1000,
+  "delayEachAccount": [1, 81],
+  "referralCode": 6713068747
 }
 ```
 
-### 2. `datas.txt` 🗂️ -
+### 2. `datas.txt` 🗂️ - Get it from [here](https://t.me/KeoAirDropFreeNe/257/6879).
 
 ```txt
 query_id.../user...
@@ -67,6 +69,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node 1`
+> To run the bot, use the following command: `cd okx-main/okx; node 1`
 
 🎇Enjoy!
